@@ -1,0 +1,2640 @@
+{
+ "meta": {
+  "titel": "Lerntheke Test 2",
+  "kurs": "Physik GK 12",
+  "untertitel": "Mechanische Schwingungen und Wellen",
+  "klausur": "Mi 25.11.2026, 45 min, Mechanische Schwingungen und Wellen",
+  "probe": "Probetest",
+  "stand": "2026-11-17",
+  "tempo_min_je_be": 2.2,
+  "bereiche": [
+   {
+    "id": "Wellen",
+    "name": "Mechanische Wellen"
+   },
+   {
+    "id": "Schwingungen",
+    "name": "Mechanische Schwingungen"
+   }
+  ]
+ },
+ "themen": [
+  {
+   "id": "W1",
+   "bereich": "Wellen",
+   "titel": "Entstehung einer Welle",
+   "hefter": "Deck 26",
+   "checkliste": [
+    "Ein Oszillator braucht eine Rückstellkraft, die Trägheit lässt ihn über die Ruhelage hinausschwingen.",
+    "Gekoppelte Oszillatoren geben die Schwingung zeitversetzt weiter.",
+    "Eine Welle transportiert Energie und Impuls, aber keine Materie.",
+    "Alle Oszillatoren schwingen mit der Frequenz des Erregers.",
+    "$c = \\dfrac{\\Delta s}{\\Delta t}$ für die Ausbreitung einer Störung"
+   ]
+  },
+  {
+   "id": "W2",
+   "bereich": "Wellen",
+   "titel": "Wellenarten und Trägermedium",
+   "hefter": "Deck 27",
+   "checkliste": [
+    "transversal: Schwingungsrichtung senkrecht zur Ausbreitungsrichtung",
+    "longitudinal: Schwingungsrichtung parallel zur Ausbreitungsrichtung",
+    "mechanische Wellen brauchen ein Trägermedium, in Gasen nur longitudinal",
+    "stärkere Kopplung, größeres c: Luft $340\\,\\tfrac{m}{s}$, Wasser $1480\\,\\tfrac{m}{s}$, Stahl $5100\\,\\tfrac{m}{s}$",
+    "Polarisation gibt es nur bei Transversalwellen"
+   ]
+  },
+  {
+   "id": "W3",
+   "bereich": "Wellen",
+   "titel": "Ausbreitungsgeschwindigkeit und Oszillatorgeschwindigkeit",
+   "hefter": "Decks 27 und 28",
+   "checkliste": [
+    "c: Ausbreitung des Schwingungszustands, konstant, vom Medium bestimmt",
+    "v: Geschwindigkeit eines Oszillators, ändert sich ständig, in der Ruhelage am größten, in den Umkehrpunkten null",
+    "$v_{max} = y_{max} \\cdot \\omega$ mit $\\omega = 2\\pi \\cdot f$",
+    "Bewegungsrichtung eines Punktes mit der Nachbarregel bestimmen"
+   ]
+  },
+  {
+   "id": "W4",
+   "bereich": "Wellen",
+   "titel": "Die harmonische Welle",
+   "hefter": "Deck 28",
+   "checkliste": [
+    "Das y(x)-Diagramm ist eine Momentaufnahme. Es liefert $y_{max}$ und λ.",
+    "Das y(t)-Diagramm zeigt einen Oszillator. Es liefert $y_{max}$ und T.",
+    "$c = \\dfrac{\\lambda}{T} = \\lambda \\cdot f$",
+    "f bestimmt der Erreger, c bestimmt das Medium"
+   ]
+  },
+  {
+   "id": "W5",
+   "bereich": "Wellen",
+   "titel": "Phase",
+   "hefter": "Deck 28",
+   "checkliste": [
+    "gleichphasig: $\\Delta s = k \\cdot \\lambda$",
+    "gegenphasig: $\\Delta s = (2k + 1) \\cdot \\dfrac{\\lambda}{2}$",
+    "$\\Delta \\varphi = 2\\pi \\cdot \\dfrac{\\Delta s}{\\lambda}$",
+    "Eine Phasenbeziehung legt λ nur bis auf ganze Vielfache fest."
+   ]
+  },
+  {
+   "id": "S1",
+   "bereich": "Schwingungen",
+   "titel": "Das Weg-Zeit-Gesetz",
+   "hefter": "Deck 18",
+   "checkliste": [
+    "$y(t) = y_{max} \\cdot \\sin(\\omega \\cdot t)$ mit $\\omega = \\dfrac{2\\pi}{T}$",
+    "vier Startfälle: Ruhelage nach oben sin, oberer Umkehrpunkt cos, Ruhelage nach unten −sin, unterer Umkehrpunkt −cos",
+    "Taschenrechner im Bogenmaß (RAD)"
+   ]
+  },
+  {
+   "id": "S2",
+   "bereich": "Schwingungen",
+   "titel": "Geschwindigkeit und Beschleunigung",
+   "hefter": "Deck 19",
+   "checkliste": [
+    "$v(t) = y'(t)$ und $a(t) = y''(t)$ (nach t ableiten, Kettenregel)",
+    "$v_{max} = y_{max} \\cdot \\omega$ in der Ruhelage",
+    "$a_{max} = y_{max} \\cdot \\omega^2$ in den Umkehrpunkten",
+    "a zeigt immer zur Ruhelage"
+   ]
+  },
+  {
+   "id": "S3",
+   "bereich": "Schwingungen",
+   "titel": "Federschwinger und Resonanz",
+   "hefter": "Decks 14 und 21",
+   "checkliste": [
+    "$T = 2\\pi \\cdot \\sqrt{\\dfrac{m}{D}}$ und $f_0 = \\dfrac{1}{T}$",
+    "Erregerfrequenz und Eigenfrequenz unterscheiden",
+    "kleiner als $f_0$: gleichphasig, etwa Erregeramplitude. Größer als $f_0$: gegenphasig, sehr kleine Amplitude",
+    "Resonanz bei Erregerfrequenz gleich Eigenfrequenz: Energiezufuhr in jeder Periode",
+    "Schutz: Eigenfrequenz verschieben, Dämpfung erhöhen"
+   ]
+  }
+ ],
+ "aufgaben": [
+  {
+   "id": "W1-G1",
+   "thema": "W1",
+   "stufe": "G",
+   "titel": "Wellenmaschine",
+   "kontext": "Bei der Wellenmaschine sind viele Stäbe drehbar an einem gemeinsamen Band befestigt. Der erste Stab wird angestoßen, danach beginnen nacheinander alle Stäbe zu schwingen.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Wodurch wird die Schwingung von einem Stab an den nächsten weitergegeben?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "durch die Kopplung über das Band",
+       "durch Stöße der Stäbe aneinander",
+       "durch die Luft zwischen den Stäben",
+       "durch die Gewichtskraft der Stäbe"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Was verbindet die Stäbe miteinander?"
+     ],
+     "loesung": [
+      "Die Stäbe sind über das Band gekoppelt. Jeder Stab zieht über das Band am nächsten und gibt die Schwingung zeitversetzt weiter."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Was transportiert die Welle entlang der Maschine? Wähle alle richtigen Antworten.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Energie",
+       "Impuls",
+       "die Stäbe",
+       "das Band"
+      ],
+      "richtig": [
+       0,
+       1
+      ],
+      "mehrfach": true
+     },
+     "hilfen": [
+      "Bewegen sich die Stäbe von einem Ende zum anderen?",
+      "Die Stäbe bleiben an ihrem Ort, weiter läuft nur ihr Schwingungszustand."
+     ],
+     "loesung": [
+      "Transportiert werden Energie und Impuls. Stäbe und Band bleiben an ihrem Ort."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W1-G2",
+   "thema": "W1",
+   "stufe": "G",
+   "titel": "Der Oszillator",
+   "kontext": "Ein Körper hängt an einer Feder. Er wird nach unten gezogen und losgelassen.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Erkläre, warum der Körper über die Ruhelage hinausschwingt.",
+     "be": 2,
+     "afb": "I",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Die Rückstellkraft der Feder beschleunigt den Körper zur Ruhelage hin.",
+       "In der Ruhelage ist er am schnellsten. Wegen seiner Trägheit bewegt er sich weiter, bis die Rückstellkraft ihn auf der anderen Seite abbremst."
+      ]
+     },
+     "hilfen": [
+      "Welche Kraft wirkt, solange der Körper ausgelenkt ist?",
+      "Welche Eigenschaft eines Körpers sorgt dafür, dass er sich weiterbewegt?"
+     ],
+     "loesung": [
+      "Rückstellkraft zur Ruhelage hin",
+      "Trägheit: in der Ruhelage größte Geschwindigkeit, Bewegung geht weiter"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Viele solche Oszillatoren sind zu einer Kette gekoppelt. Der erste wird mit 2,0 Hz auf und ab bewegt. Mit welcher Frequenz schwingt der zehnte Oszillator?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "2,0 Hz",
+       "0,20 Hz",
+       "20 Hz",
+       "mit seiner eigenen, beliebigen Frequenz"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wer gibt in einer Welle die Frequenz vor?"
+     ],
+     "loesung": [
+      "Alle Oszillatoren schwingen mit der Frequenz des Erregers, also mit 2,0 Hz."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W1-A",
+   "thema": "W1",
+   "stufe": "A",
+   "titel": "Trainingsseil",
+   "kontext": "Ein Sportler bewegt das Ende eines 15 m langen Trainingsseils dreimal pro Sekunde auf und ab. Der erste Wellenberg erreicht das andere Ende nach 2,5 s.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Ausbreitungsgeschwindigkeit der Welle.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 6.0,
+      "einheit": "m/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Welche Strecke legt der Wellenberg in welcher Zeit zurück?",
+      "$c = \\dfrac{\\Delta s}{\\Delta t}$"
+     ],
+     "loesung": [
+      "$c = \\dfrac{\\Delta s}{\\Delta t} = \\dfrac{15\\,m}{2{,}5\\,s} = 6{,}0\\,\\tfrac{m}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Gib die Frequenz an, mit der ein Seilstück in der Mitte schwingt.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.0,
+      "einheit": "Hz",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Wer bestimmt die Frequenz der Seilstücke?"
+     ],
+     "loesung": [
+      "Alle Seilstücke schwingen mit der Frequenz des Erregers: dreimal pro Sekunde, also 3,0 Hz."
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Ein Mitschüler meint: „Mit jeder Welle wird das Seil ein Stück zum anderen Ende geschoben.“ Nimm Stellung.",
+     "be": 2,
+     "afb": "II",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Die Aussage ist falsch. Jedes Seilstück schwingt nur um seine Ruhelage auf und ab.",
+       "Weiter läuft der Schwingungszustand. Transportiert wird Energie, keine Materie."
+      ]
+     },
+     "hilfen": [
+      "Wohin bewegt sich ein einzelnes Seilstück?",
+      "Was läuft dann eigentlich über das Seil?"
+     ],
+     "loesung": [
+      "falsch: Seilstücke schwingen um ihre Ruhelage",
+      "Energietransport ohne Materietransport"
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "W1-Z",
+   "thema": "W1",
+   "stufe": "Z",
+   "titel": "Welle oder nicht?",
+   "kontext": "Zwei Vorgänge werden verglichen: Eine Reihe Dominosteine fällt nacheinander um. Ein Tsunami läuft über den offenen Ozean.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Beurteile, ob die fallenden Dominosteine eine mechanische Welle sind.",
+     "be": 2,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Ein Dominostein hat keine Rückstellkraft zu einer Ruhelage hin, er kehrt nicht zurück. Er ist kein Oszillator.",
+       "Es wird keine Schwingung weitergegeben, nur ein einmaliger Umfallvorgang. Die Dominoreihe ist keine mechanische Welle."
+      ]
+     },
+     "hilfen": [
+      "Was braucht ein Oszillator?",
+      "Schwingt ein Dominostein nach dem Umfallen um eine Ruhelage?"
+     ],
+     "loesung": [
+      "kein Oszillator: keine Rückstellkraft, keine Rückkehr",
+      "keine Schwingung, die weitergegeben wird: keine Welle"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Der Tsunami legt 3600 km in 5,0 h zurück. Berechne seine Ausbreitungsgeschwindigkeit in $\\tfrac{m}{s}$.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 200.0,
+      "einheit": "m/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Rechne Kilometer in Meter und Stunden in Sekunden um."
+     ],
+     "loesung": [
+      "$c = \\dfrac{3600 \\cdot 10^3\\,m}{5{,}0 \\cdot 3600\\,s} = 200\\,\\tfrac{m}{s}$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Auf dem offenen Ozean wird das Wasser kaum mitbewegt. Warum richtet der Tsunami an der Küste trotzdem große Schäden an?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Die Welle transportiert sehr viel Energie zur Küste.",
+       "Das Wasser des offenen Ozeans wird zur Küste transportiert.",
+       "An der Küste ändert sich die Frequenz stark.",
+       "Der Tsunami ist keine Welle."
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Was transportiert eine Welle?"
+     ],
+     "loesung": [
+      "Eine Welle transportiert Energie. Diese Energie wird an der Küste frei."
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "W2-G1",
+   "thema": "W2",
+   "stufe": "G",
+   "titel": "Quer oder längs?",
+   "kontext": "Ordne die Wellen zu.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Ein Seil wird am Ende auf und ab bewegt.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Transversalwelle",
+       "Longitudinalwelle"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Vergleiche die Schwingungsrichtung mit der Ausbreitungsrichtung."
+     ],
+     "loesung": [
+      "Die Seilstücke schwingen senkrecht zur Ausbreitungsrichtung: transversal."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Schall breitet sich in Luft aus.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Longitudinalwelle",
+       "Transversalwelle"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "In welche Richtung schwingen die Luftteilchen?"
+     ],
+     "loesung": [
+      "Die Luftteilchen schwingen in Ausbreitungsrichtung hin und her: longitudinal."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W2-G2",
+   "thema": "W2",
+   "stufe": "G",
+   "titel": "Trägermedium",
+   "kontext": "In einem Science-Fiction-Film explodiert ein Raumschiff im Weltall mit einem lauten Knall.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Begründe, warum man im Weltall keinen Knall hören kann.",
+     "be": 2,
+     "afb": "I",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Schall ist eine mechanische Welle und braucht ein Trägermedium aus gekoppelten Teilchen.",
+       "Im Vakuum des Weltalls gibt es keine Teilchen, die die Schwingung weitergeben können."
+      ]
+     },
+     "hilfen": [
+      "Was braucht eine mechanische Welle, um sich auszubreiten?",
+      "Gibt es im Weltall ein solches Medium?"
+     ],
+     "loesung": [
+      "Schall braucht ein Trägermedium",
+      "Vakuum: keine Teilchen, keine Kopplung"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Welche Wellen lassen sich polarisieren? Wähle alle richtigen Antworten.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "eine Seilwelle mit senkrechter Schwingung",
+       "eine Querwelle auf einer Schraubenfeder",
+       "Schall in Luft",
+       "eine Längswelle auf einer Schraubenfeder"
+      ],
+      "richtig": [
+       0,
+       1
+      ],
+      "mehrfach": true
+     },
+     "hilfen": [
+      "Polarisation gibt es nur bei einer Wellenart."
+     ],
+     "loesung": [
+      "Nur Transversalwellen lassen sich polarisieren."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W2-A",
+   "thema": "W2",
+   "stufe": "A",
+   "titel": "Hammerschlag auf die Schiene",
+   "kontext": "Am Ende einer 102 m langen Stahlschiene schlägt jemand mit dem Hammer auf die Schiene. Am anderen Ende hält eine Person ein Ohr an die Schiene. Sie hört zwei Knalle. Schall breitet sich in Stahl mit $5100\\,\\tfrac{m}{s}$ und in Luft mit $340\\,\\tfrac{m}{s}$ aus.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Laufzeit des Schalls durch die Schiene in Sekunden.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.02,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Stelle $c = \\dfrac{\\Delta s}{\\Delta t}$ nach $\\Delta t$ um."
+     ],
+     "loesung": [
+      "$\\Delta t = \\dfrac{102\\,m}{5100\\,\\tfrac{m}{s}} = 0{,}020\\,s$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Laufzeit des Schalls durch die Luft.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.3,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Gleiche Rechnung mit der Schallgeschwindigkeit in Luft."
+     ],
+     "loesung": [
+      "$\\Delta t = \\dfrac{102\\,m}{340\\,\\tfrac{m}{s}} = 0{,}30\\,s$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Berechne den zeitlichen Abstand der beiden Knalle.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.28,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Nutze deine Ergebnisse aus a) und b)."
+     ],
+     "loesung": [
+      "$0{,}30\\,s - 0{,}020\\,s = 0{,}28\\,s$"
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Warum ist der Schall in Stahl schneller als in Luft?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Die Teilchen im Stahl sind viel stärker gekoppelt.",
+       "Die Teilchen im Stahl fliegen schneller.",
+       "Stahl hat weniger Teilchen als Luft.",
+       "Im Stahl ist die Frequenz höher."
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wovon hängt die Ausbreitungsgeschwindigkeit ab?"
+     ],
+     "loesung": [
+      "Je stärker die Oszillatoren gekoppelt sind, desto schneller wird die Schwingung weitergegeben."
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "W2-Z",
+   "thema": "W2",
+   "stufe": "Z",
+   "titel": "Quer oder längs nachweisen",
+   "kontext": "Auf einer langen Schraubenfeder läuft eine Welle. Die Feder wird durch einen schmalen senkrechten Spalt in einer Holzplatte geführt.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Plane mit dem Spalt ein Experiment, mit dem man entscheidet, ob die Welle transversal oder longitudinal ist.",
+     "be": 2,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Man beobachtet hinter dem Spalt, ob die Welle weiterläuft. Dann dreht man den Spalt um 90°.",
+       "Eine Querwelle läuft nur durch, wenn der Spalt parallel zur Schwingungsrichtung steht. Eine Längswelle läuft in jeder Stellung durch."
+      ]
+     },
+     "hilfen": [
+      "Was passiert mit einer Querwelle, deren Schwingungsrichtung quer zum Spalt steht?",
+      "Spielt die Stellung des Spalts für eine Längswelle eine Rolle?"
+     ],
+     "loesung": [
+      "Spalt drehen und hinter dem Spalt beobachten",
+      "quer: nur in einer Stellung durch, längs: in jeder Stellung durch"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Ein Mitschüler beobachtet, dass die Welle in beiden Spaltstellungen durchläuft. Er folgert: „Es ist eine Querwelle.“ Nimm Stellung.",
+     "be": 2,
+     "afb": "II",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Die Folgerung ist falsch.",
+       "Eine Querwelle würde in der gekreuzten Stellung blockiert. Die Beobachtung spricht für eine Längswelle."
+      ]
+     },
+     "hilfen": [
+      "Was müsste bei einer Querwelle in einer der beiden Stellungen passieren?"
+     ],
+     "loesung": [
+      "falsch",
+      "Querwelle würde blockiert, also Längswelle"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W3-G1",
+   "thema": "W3",
+   "stufe": "G",
+   "titel": "Zwei Geschwindigkeiten",
+   "kontext": "Auf einem Seil läuft eine harmonische Welle.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Wo ist die Geschwindigkeit eines Seilstücks am größten?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "in der Ruhelage",
+       "im Wellenberg",
+       "im Wellental",
+       "überall gleich groß"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Jedes Seilstück ist ein Oszillator. Wo ist ein Oszillator am schnellsten?"
+     ],
+     "loesung": [
+      "Wie jeder Oszillator ist das Seilstück in der Ruhelage am schnellsten, im Berg und im Tal ist es kurz in Ruhe."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Wovon hängt die Ausbreitungsgeschwindigkeit c ab?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "vom Medium, hier vom Seil",
+       "von der Amplitude",
+       "von der Frequenz",
+       "von der Geschwindigkeit der Seilstücke"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Welche Größe bleibt gleich, wenn man schneller oder stärker schüttelt?"
+     ],
+     "loesung": [
+      "c wird vom Medium bestimmt: Material und Spannung des Seils."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W3-G2",
+   "thema": "W3",
+   "stufe": "G",
+   "titel": "Wie schnell ist ein Seilstück?",
+   "kontext": "Eine Seilwelle hat die Frequenz 2,0 Hz, die Amplitude 5,0 cm und die Ausbreitungsgeschwindigkeit $3{,}0\\,\\tfrac{m}{s}$.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die größte Geschwindigkeit eines Seilstücks.",
+     "be": 2,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.63,
+      "einheit": "m/s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Zuerst $\\omega = 2\\pi \\cdot f$.",
+      "$v_{max} = y_{max} \\cdot \\omega$, Amplitude in Meter."
+     ],
+     "loesung": [
+      "$\\omega = 2\\pi \\cdot 2{,}0\\,Hz \\approx 12{,}6\\,\\tfrac{1}{s}$",
+      "$v_{max} = 0{,}050\\,m \\cdot 12{,}6\\,\\tfrac{1}{s} \\approx 0{,}63\\,\\tfrac{m}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Vergleiche mit der Ausbreitungsgeschwindigkeit.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "$v_{max}$ ist kleiner als c.",
+       "$v_{max}$ ist gleich c.",
+       "$v_{max}$ ist größer als c.",
+       "Man kann beide nicht vergleichen."
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Vergleiche $0{,}63\\,\\tfrac{m}{s}$ mit $3{,}0\\,\\tfrac{m}{s}$."
+     ],
+     "loesung": [
+      "$0{,}63\\,\\tfrac{m}{s} < 3{,}0\\,\\tfrac{m}{s}$. Die Seilstücke sind viel langsamer als die Welle."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W3-A",
+   "thema": "W3",
+   "stufe": "A",
+   "titel": "Nachbarregel",
+   "kontext": "Die Momentaufnahme zeigt eine Seilwelle, die nach rechts läuft.",
+   "abbildung": {
+    "typ": "yx_diagramm",
+    "funktion": "sin",
+    "ymax": 2.0,
+    "lambda": 1.2,
+    "xmax": 2.4,
+    "einheit_y": "cm",
+    "einheit_x": "m",
+    "raster": true,
+    "richtung": "rechts",
+    "punkte": [
+     [
+      "A",
+      1.2
+     ],
+     [
+      "B",
+      1.5
+     ],
+     [
+      "C",
+      1.8
+     ],
+     [
+      "D",
+      2.1
+     ]
+    ]
+   },
+   "teile": [
+    {
+     "text": "In welche Richtung bewegt sich das Seilstück A gerade?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "nach unten",
+       "nach oben",
+       "nach rechts",
+       "es ist in Ruhe"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Nachbarregel: Ein Seilstück macht als Nächstes, was sein Nachbar auf der Seite des Erregers gerade macht.",
+      "Der Erreger ist links. Wo ist der linke Nachbar von A?"
+     ],
+     "loesung": [
+      "Der linke Nachbar von A liegt tiefer. A bewegt sich nach unten."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "In welche Richtung bewegt sich das Seilstück C gerade?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "nach oben",
+       "nach unten",
+       "nach links",
+       "es ist in Ruhe"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wo liegt der linke Nachbar von C?"
+     ],
+     "loesung": [
+      "Der linke Nachbar von C liegt höher. C bewegt sich nach oben."
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Welche Seilstücke sind in diesem Moment in Ruhe? Wähle alle richtigen Antworten.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "B",
+       "D",
+       "A",
+       "C"
+      ],
+      "richtig": [
+       0,
+       1
+      ],
+      "mehrfach": true
+     },
+     "hilfen": [
+      "Wo ist die Geschwindigkeit eines Oszillators null?"
+     ],
+     "loesung": [
+      "B ist im Berg, D im Tal. In den Umkehrpunkten ist v = 0."
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Welche Seilstücke bewegen sich gerade am schnellsten? Wähle alle richtigen Antworten.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "A",
+       "C",
+       "B",
+       "D"
+      ],
+      "richtig": [
+       0,
+       1
+      ],
+      "mehrfach": true
+     },
+     "hilfen": [
+      "Wo ist ein Oszillator am schnellsten?"
+     ],
+     "loesung": [
+      "A und C gehen gerade durch die Ruhelage, dort ist v am größten."
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "W3-Z",
+   "thema": "W3",
+   "stufe": "Z",
+   "titel": "Wie schnell ist die Luft?",
+   "kontext": "Eine Lautsprechermembran schwingt mit 1000 Hz und der Amplitude 0,050 mm. Die Luft vor der Membran schwingt mit derselben Amplitude.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die größte Geschwindigkeit der Membran.",
+     "be": 2,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.31,
+      "einheit": "m/s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$v_{max} = y_{max} \\cdot \\omega$ mit $\\omega = 2\\pi \\cdot f$",
+      "0,050 mm = $5{,}0 \\cdot 10^{-5}\\,m$"
+     ],
+     "loesung": [
+      "$\\omega = 2\\pi \\cdot 1000\\,Hz \\approx 6280\\,\\tfrac{1}{s}$",
+      "$v_{max} = 5{,}0 \\cdot 10^{-5}\\,m \\cdot 6280\\,\\tfrac{1}{s} \\approx 0{,}31\\,\\tfrac{m}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Ein Mitschüler sagt: „Die Luftteilchen fliegen mit $340\\,\\tfrac{m}{s}$ vom Lautsprecher zum Ohr.“ Nimm Stellung.",
+     "be": 2,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Die Aussage ist falsch. Die Luftteilchen schwingen nur um ihre Ruhelage, mit höchstens etwa $0{,}31\\,\\tfrac{m}{s}$.",
+       "$340\\,\\tfrac{m}{s}$ ist die Ausbreitungsgeschwindigkeit c. So schnell läuft der Schwingungszustand und damit die Energie durch die Luft."
+      ]
+     },
+     "hilfen": [
+      "Was bedeutet dein Ergebnis aus a) für die Luftteilchen?",
+      "Welche Geschwindigkeit sind $340\\,\\tfrac{m}{s}$?"
+     ],
+     "loesung": [
+      "falsch: Teilchen schwingen um die Ruhelage, etwa $0{,}31\\,\\tfrac{m}{s}$",
+      "$340\\,\\tfrac{m}{s}$ ist c, die Ausbreitung des Schwingungszustands"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W4-G1",
+   "thema": "W4",
+   "stufe": "G",
+   "titel": "Momentaufnahme ablesen",
+   "kontext": "Das Diagramm zeigt eine Momentaufnahme einer Seilwelle.",
+   "abbildung": {
+    "typ": "yx_diagramm",
+    "funktion": "sin",
+    "ymax": 3.0,
+    "lambda": 1.2,
+    "xmax": 2.4,
+    "einheit_y": "cm",
+    "einheit_x": "m",
+    "raster": true,
+    "richtung": null,
+    "punkte": []
+   },
+   "teile": [
+    {
+     "text": "Lies die Wellenlänge ab.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.2,
+      "einheit": "m",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Die Wellenlänge ist der Abstand zweier benachbarter Wellenberge."
+     ],
+     "loesung": [
+      "Benachbarte Berge liegen bei 0,3 m und 1,5 m: λ = 1,2 m."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Lies die Amplitude ab.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.0,
+      "einheit": "cm",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Die Amplitude ist der Abstand von der Ruhelage bis zum Berg."
+     ],
+     "loesung": [
+      "$y_{max} = 3{,}0\\,cm$"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W4-G2",
+   "thema": "W4",
+   "stufe": "G",
+   "titel": "Wasserwelle",
+   "kontext": "Eine Wasserwelle hat die Wellenlänge 4,0 m. Ein Korken schwingt mit 0,50 Hz.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Ausbreitungsgeschwindigkeit.",
+     "be": 2,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 2.0,
+      "einheit": "m/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$c = \\lambda \\cdot f$"
+     ],
+     "loesung": [
+      "$c = \\lambda \\cdot f = 4{,}0\\,m \\cdot 0{,}50\\,Hz = 2{,}0\\,\\tfrac{m}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Periodendauer des Korkens.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 2.0,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$T = \\dfrac{1}{f}$"
+     ],
+     "loesung": [
+      "$T = \\dfrac{1}{0{,}50\\,Hz} = 2{,}0\\,s$"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W4-A",
+   "thema": "W4",
+   "stufe": "A",
+   "titel": "Modellboot im Becken",
+   "kontext": "In einem Wellenbecken haben benachbarte Wellenberge den Abstand 2,4 m. Das Diagramm zeigt die Auslenkung eines Modellboots.",
+   "abbildung": {
+    "typ": "yt_diagramm",
+    "funktion": "sin",
+    "ymax": 4.0,
+    "T": 1.6,
+    "tmax": 3.2,
+    "einheit_y": "cm",
+    "raster": true
+   },
+   "teile": [
+    {
+     "text": "Lies die Periodendauer ab.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.6,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Die Periodendauer ist die Zeit für eine volle Schwingung."
+     ],
+     "loesung": [
+      "Nach 1,6 s wiederholt sich die Kurve: T = 1,6 s."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Ausbreitungsgeschwindigkeit der Welle.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.4999999999999998,
+      "einheit": "m/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "λ steht im Text, T hast du abgelesen.",
+      "$c = \\dfrac{\\lambda}{T}$"
+     ],
+     "loesung": [
+      "$c = \\dfrac{2{,}4\\,m}{1{,}6\\,s} = 1{,}5\\,\\tfrac{m}{s}$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Die Wellenmaschine wird auf die doppelte Frequenz gestellt. Was gilt?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "c bleibt gleich, λ halbiert sich.",
+       "c verdoppelt sich, λ bleibt gleich.",
+       "c und λ verdoppeln sich.",
+       "c halbiert sich, λ bleibt gleich."
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wer bestimmt c?",
+      "$c = \\lambda \\cdot f$ bleibt gleich, f wird doppelt so groß."
+     ],
+     "loesung": [
+      "c hängt vom Wasser ab und bleibt gleich. Mit doppelter Frequenz wird λ halb so groß."
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Berechne die neue Wellenlänge.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.2,
+      "einheit": "m",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Nutze dein Ergebnis aus b) mit der neuen Frequenz."
+     ],
+     "loesung": [
+      "$f = \\dfrac{2}{1{,}6\\,s} = 1{,}25\\,Hz$, $\\lambda = \\dfrac{c}{f} = \\dfrac{1{,}5\\,\\tfrac{m}{s}}{1{,}25\\,Hz} = 1{,}2\\,m$"
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "W4-Z",
+   "thema": "W4",
+   "stufe": "Z",
+   "titel": "Stimmgabel unter Wasser",
+   "kontext": "Eine Stimmgabel schwingt mit 440 Hz. Ihr Ton wird einmal in Luft ($340\\,\\tfrac{m}{s}$) und einmal unter Wasser ($1480\\,\\tfrac{m}{s}$) gemessen.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Wellenlänge in Luft.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.77,
+      "einheit": "m",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$\\lambda = \\dfrac{c}{f}$"
+     ],
+     "loesung": [
+      "$\\lambda = \\dfrac{340\\,\\tfrac{m}{s}}{440\\,Hz} \\approx 0{,}77\\,m$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Wellenlänge im Wasser.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.4,
+      "einheit": "m",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Gleiche Frequenz, andere Ausbreitungsgeschwindigkeit."
+     ],
+     "loesung": [
+      "$\\lambda = \\dfrac{1480\\,\\tfrac{m}{s}}{440\\,Hz} \\approx 3{,}4\\,m$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Ein Mitschüler meint: „Unter Wasser ist der Ton höher, weil sich der Schall dort schneller ausbreitet.“ Bewerte die Aussage.",
+     "be": 2,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Die Aussage ist falsch. Die Frequenz und damit die Tonhöhe bestimmt die Stimmgabel als Erreger, sie bleibt 440 Hz.",
+       "Die größere Ausbreitungsgeschwindigkeit ändert nur die Wellenlänge: $\\lambda = \\dfrac{c}{f}$ wird größer."
+      ]
+     },
+     "hilfen": [
+      "Wer bestimmt die Frequenz einer Welle?",
+      "Was ändert sich stattdessen?"
+     ],
+     "loesung": [
+      "falsch: f vom Erreger, bleibt 440 Hz",
+      "größeres c gibt größeres λ"
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "W5-G1",
+   "thema": "W5",
+   "stufe": "G",
+   "titel": "Gleich- oder gegenphasig?",
+   "kontext": "Eine Seilwelle hat die Wellenlänge 0,80 m.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Zwei Seilstücke liegen 1,6 m auseinander. Sie schwingen …",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "gleichphasig",
+       "gegenphasig",
+       "weder gleich- noch gegenphasig"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wie viele Wellenlängen sind 1,6 m?"
+     ],
+     "loesung": [
+      "$1{,}6\\,m = 2 \\cdot \\lambda$: gleichphasig"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Zwei Seilstücke liegen 1,2 m auseinander. Sie schwingen …",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "gegenphasig",
+       "gleichphasig",
+       "weder gleich- noch gegenphasig"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wie viele Wellenlängen sind 1,2 m?"
+     ],
+     "loesung": [
+      "$1{,}2\\,m = 1{,}5 \\cdot \\lambda$, ungerades Vielfaches von $\\dfrac{\\lambda}{2}$: gegenphasig"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "W5-G2",
+   "thema": "W5",
+   "stufe": "G",
+   "titel": "Phasendifferenz berechnen",
+   "kontext": "Die Momentaufnahme zeigt eine Seilwelle mit den Seilstücken P und Q.",
+   "abbildung": {
+    "typ": "yx_diagramm",
+    "funktion": "sin",
+    "ymax": 2.0,
+    "lambda": 2.0,
+    "xmax": 4.0,
+    "einheit_y": "cm",
+    "einheit_x": "m",
+    "raster": true,
+    "richtung": null,
+    "punkte": [
+     [
+      "P",
+      0.5
+     ],
+     [
+      "Q",
+      3.5
+     ]
+    ]
+   },
+   "teile": [
+    {
+     "text": "Lies den Abstand von P und Q ab.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.0,
+      "einheit": "m",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Lies die x-Werte von P und Q ab und bilde die Differenz."
+     ],
+     "loesung": [
+      "P bei 0,5 m, Q bei 3,5 m: $\\Delta s = 3{,}0\\,m$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Phasendifferenz. Gib sie als Vielfaches von π an.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.0,
+      "einheit": "π",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Lies zuerst λ ab.",
+      "$\\Delta \\varphi = 2\\pi \\cdot \\dfrac{\\Delta s}{\\lambda}$"
+     ],
+     "loesung": [
+      "λ = 2,0 m, $\\Delta \\varphi = 2\\pi \\cdot \\dfrac{3{,}0\\,m}{2{,}0\\,m} = 3\\pi$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Wie schwingen P und Q zueinander?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "gegenphasig",
+       "gleichphasig",
+       "um eine Viertelperiode versetzt"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Ist $3\\pi$ ein gerades oder ungerades Vielfaches von π?"
+     ],
+     "loesung": [
+      "Ungerades Vielfaches von π: gegenphasig. Im Bild ist P im Berg und Q im Tal."
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "W5-A",
+   "thema": "W5",
+   "stufe": "A",
+   "titel": "Zwei Korken",
+   "kontext": "Auf einem See schwimmen zwei Korken im Abstand von 3,0 m hintereinander in Ausbreitungsrichtung. Sie schwingen gegenphasig. Zwischen ihnen gibt es keine weitere Stelle, die gegenphasig zum ersten Korken schwingt. Die Welle breitet sich mit $1{,}5\\,\\tfrac{m}{s}$ aus.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Gib die Wellenlänge an.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 6.0,
+      "einheit": "m",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Benachbarte gegenphasige Stellen liegen eine halbe Wellenlänge auseinander."
+     ],
+     "loesung": [
+      "$\\dfrac{\\lambda}{2} = 3{,}0\\,m$, also λ = 6,0 m"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Frequenz, mit der die Korken schwingen.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.25,
+      "einheit": "Hz",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Nutze dein Ergebnis aus a).",
+      "$f = \\dfrac{c}{\\lambda}$"
+     ],
+     "loesung": [
+      "$f = \\dfrac{1{,}5\\,\\tfrac{m}{s}}{6{,}0\\,m} = 0{,}25\\,Hz$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Ohne den Satz über die Stellen dazwischen wäre λ nicht eindeutig. Welche Wellenlängen würden dann ebenfalls passen? Wähle alle richtigen Antworten.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "2,0 m",
+       "1,2 m",
+       "3,0 m",
+       "1,5 m"
+      ],
+      "richtig": [
+       0,
+       1
+      ],
+      "mehrfach": true
+     },
+     "hilfen": [
+      "Gegenphasig heißt $\\Delta s = (2k + 1) \\cdot \\dfrac{\\lambda}{2}$.",
+      "Prüfe für jede Wellenlänge, ob 3,0 m ein ungerades Vielfaches von $\\dfrac{\\lambda}{2}$ ist."
+     ],
+     "loesung": [
+      "2,0 m: $3{,}0\\,m = 1{,}5 \\cdot \\lambda$, gegenphasig",
+      "1,2 m: $3{,}0\\,m = 2{,}5 \\cdot \\lambda$, gegenphasig",
+      "3,0 m und 1,5 m geben ganze Vielfache von λ: gleichphasig"
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Gib die Phasendifferenz der Korken für λ = 6,0 m an.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "π",
+       "2π",
+       "$\\dfrac{\\pi}{2}$",
+       "0"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "$\\Delta \\varphi = 2\\pi \\cdot \\dfrac{\\Delta s}{\\lambda}$"
+     ],
+     "loesung": [
+      "$\\Delta \\varphi = 2\\pi \\cdot \\dfrac{3{,}0\\,m}{6{,}0\\,m} = \\pi$"
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "W5-Z",
+   "thema": "W5",
+   "stufe": "Z",
+   "titel": "Viertelperiode später",
+   "kontext": "Auf einem Seil läuft eine Welle mit 2,5 Hz. Das Seilstück Q liegt 0,30 m weiter vom Erreger entfernt als P. Q erreicht seinen höchsten Punkt 0,10 s später als P. Dazwischen erreicht kein anderer Wellenberg Q.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Phasendifferenz zwischen P und Q. Gib sie als Vielfaches von π an.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.5,
+      "einheit": "π",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Welcher Bruchteil der Periodendauer sind 0,10 s?",
+      "Eine ganze Periode entspricht $2\\pi$."
+     ],
+     "loesung": [
+      "$T = \\dfrac{1}{2{,}5\\,Hz} = 0{,}40\\,s$",
+      "$\\Delta \\varphi = 2\\pi \\cdot \\dfrac{0{,}10\\,s}{0{,}40\\,s} = \\dfrac{\\pi}{2}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Wellenlänge.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.2,
+      "einheit": "m",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Stelle $\\Delta \\varphi = 2\\pi \\cdot \\dfrac{\\Delta s}{\\lambda}$ nach λ um und nutze dein Ergebnis aus a)."
+     ],
+     "loesung": [
+      "$\\lambda = 2\\pi \\cdot \\dfrac{\\Delta s}{\\Delta \\varphi} = 2\\pi \\cdot \\dfrac{0{,}30\\,m}{\\pi / 2} = 1{,}2\\,m$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Berechne die Ausbreitungsgeschwindigkeit.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.0,
+      "einheit": "m/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$c = \\lambda \\cdot f$"
+     ],
+     "loesung": [
+      "$c = 1{,}2\\,m \\cdot 2{,}5\\,Hz = 3{,}0\\,\\tfrac{m}{s}$",
+      "Kontrolle: Der Berg legt 0,30 m in 0,10 s zurück, auch das gibt $3{,}0\\,\\tfrac{m}{s}$."
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Ein Mitschüler meint: „P und Q schwingen gleichphasig, denn beide erreichen denselben Wellenberg.“ Bewerte die Aussage.",
+     "be": 1,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Falsch: Gleichphasig hieße, beide erreichen den Berg gleichzeitig. Q ist eine Viertelperiode später dran, die Phasendifferenz ist $\\dfrac{\\pi}{2}$."
+      ]
+     },
+     "hilfen": [
+      "Was bedeutet gleichphasig?"
+     ],
+     "loesung": [
+      "falsch, Q ist eine Viertelperiode später: $\\Delta \\varphi = \\dfrac{\\pi}{2}$"
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "S1-G1",
+   "thema": "S1",
+   "stufe": "G",
+   "titel": "Start im oberen Umkehrpunkt",
+   "kontext": "Ein Federschwinger wird 2,5 cm nach oben ausgelenkt und losgelassen. Die Periodendauer beträgt 0,80 s.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Kreisfrequenz.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 7.85,
+      "einheit": "1/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$\\omega = \\dfrac{2\\pi}{T}$"
+     ],
+     "loesung": [
+      "$\\omega = \\dfrac{2\\pi}{0{,}80\\,s} \\approx 7{,}85\\,\\tfrac{1}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Welches Weg-Zeit-Gesetz gilt? Gib y(t) an.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "$2{,}5\\,cm \\cdot \\cos(7{,}85\\,\\tfrac{1}{s} \\cdot t)$",
+       "$2{,}5\\,cm \\cdot \\sin(7{,}85\\,\\tfrac{1}{s} \\cdot t)$",
+       "$-2{,}5\\,cm \\cdot \\cos(7{,}85\\,\\tfrac{1}{s} \\cdot t)$",
+       "$2{,}5\\,cm \\cdot \\cos(0{,}80\\,s \\cdot t)$"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Welche Funktion hat bei t = 0 ihren größten Wert?"
+     ],
+     "loesung": [
+      "Start im oberen Umkehrpunkt: cos mit positiver Amplitude"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "S1-G2",
+   "thema": "S1",
+   "stufe": "G",
+   "titel": "Gesetz aus dem Diagramm",
+   "kontext": "Das Diagramm zeigt die Elongation eines Federschwingers.",
+   "abbildung": {
+    "typ": "yt_diagramm",
+    "funktion": "-sin",
+    "ymax": 3.0,
+    "T": 1.2,
+    "tmax": 2.4,
+    "einheit_y": "cm",
+    "raster": true
+   },
+   "teile": [
+    {
+     "text": "Welcher Startfall liegt vor?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Ruhelage nach unten, −sin",
+       "Ruhelage nach oben, sin",
+       "oberer Umkehrpunkt, cos",
+       "unterer Umkehrpunkt, −cos"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wo beginnt die Kurve und wohin geht sie zuerst?"
+     ],
+     "loesung": [
+      "Die Kurve beginnt bei null und geht nach unten: −sin."
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Lies die Periodendauer ab.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.2,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Nach welcher Zeit wiederholt sich die Kurve?"
+     ],
+     "loesung": [
+      "T = 1,2 s"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Berechne die Elongation nach 0,20 s.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": -2.6,
+      "einheit": "cm",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Stelle zuerst das Gesetz auf: $y(t) = -3{,}0\\,cm \\cdot \\sin(\\omega t)$.",
+      "Taschenrechner im Bogenmaß, Vorzeichen beachten."
+     ],
+     "loesung": [
+      "$\\omega = \\dfrac{2\\pi}{1{,}2\\,s} \\approx 5{,}24\\,\\tfrac{1}{s}$",
+      "$\\omega \\cdot t = 5{,}24\\,\\tfrac{1}{s} \\cdot 0{,}20\\,s \\approx 1{,}05$",
+      "$y = -3{,}0\\,cm \\cdot \\sin(1{,}05) \\approx -2{,}6\\,cm$"
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "S1-A",
+   "thema": "S1",
+   "stufe": "A",
+   "titel": "Losgelassen von unten",
+   "kontext": "Ein Körper an einer Feder wird 5,0 cm nach unten gezogen und zum Zeitpunkt t = 0 losgelassen. Er macht 20 Schwingungen in 16 s.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Periodendauer.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.8,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Zeit durch Anzahl der Schwingungen."
+     ],
+     "loesung": [
+      "$T = \\dfrac{16\\,s}{20} = 0{,}80\\,s$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Welches Weg-Zeit-Gesetz gilt? Gib y(t) an.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "$-5{,}0\\,cm \\cdot \\cos(7{,}85\\,\\tfrac{1}{s} \\cdot t)$",
+       "$5{,}0\\,cm \\cdot \\cos(7{,}85\\,\\tfrac{1}{s} \\cdot t)$",
+       "$-5{,}0\\,cm \\cdot \\sin(7{,}85\\,\\tfrac{1}{s} \\cdot t)$",
+       "$-5{,}0\\,cm \\cdot \\cos(0{,}80\\,\\tfrac{1}{s} \\cdot t)$"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Start im unteren Umkehrpunkt.",
+      "Berechne ω aus deinem Ergebnis aus a)."
+     ],
+     "loesung": [
+      "Start unten: −cos, $\\omega = \\dfrac{2\\pi}{0{,}80\\,s} \\approx 7{,}85\\,\\tfrac{1}{s}$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Berechne die Elongation nach 0,30 s.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 3.5,
+      "einheit": "cm",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Setze in das Gesetz aus b) ein, Taschenrechner im Bogenmaß."
+     ],
+     "loesung": [
+      "$\\omega \\cdot t = 7{,}85\\,\\tfrac{1}{s} \\cdot 0{,}30\\,s \\approx 2{,}36$",
+      "$y = -5{,}0\\,cm \\cdot \\cos(2{,}36) \\approx 3{,}5\\,cm$"
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Gib an, wann der Körper zum ersten Mal den oberen Umkehrpunkt erreicht.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.4,
+      "einheit": "s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Vom unteren zum oberen Umkehrpunkt ist es eine halbe Periode."
+     ],
+     "loesung": [
+      "$t = \\dfrac{T}{2} = 0{,}40\\,s$"
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "S1-Z",
+   "thema": "S1",
+   "stufe": "Z",
+   "titel": "Wann ist er oben?",
+   "kontext": "Ein Federschwinger ist zum Zeitpunkt t = 0 in der Ruhelage und bewegt sich nach unten. Amplitude 10 cm, Periodendauer 2,0 s.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Welches Weg-Zeit-Gesetz gilt? Gib y(t) an.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "$-10\\,cm \\cdot \\sin(3{,}14\\,\\tfrac{1}{s} \\cdot t)$",
+       "$10\\,cm \\cdot \\sin(3{,}14\\,\\tfrac{1}{s} \\cdot t)$",
+       "$-10\\,cm \\cdot \\cos(3{,}14\\,\\tfrac{1}{s} \\cdot t)$",
+       "$-10\\,cm \\cdot \\sin(2{,}0\\,\\tfrac{1}{s} \\cdot t)$"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Start in der Ruhelage nach unten.",
+      "$\\omega = \\dfrac{2\\pi}{2{,}0\\,s}$"
+     ],
+     "loesung": [
+      "−sin, $\\omega = \\pi\\,\\tfrac{1}{s} \\approx 3{,}14\\,\\tfrac{1}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne, wann der Körper zum ersten Mal 5,0 cm über der Ruhelage ist.",
+     "be": 2,
+     "afb": "III",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.17,
+      "einheit": "s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Setze y = 5,0 cm in das Gesetz aus a) ein und stelle nach $\\sin(\\omega t)$ um.",
+      "$\\sin(\\pi \\cdot t) = -0{,}5$. Der Taschenrechner liefert eine negative Zeit. Überlege mit dem Verlauf der Kurve, wann der Körper zum ersten Mal oben ankommt.",
+      "Nach einer halben Periode (1,0 s) geht er wieder durch die Ruhelage nach oben. Danach braucht er für 5,0 cm noch $\\dfrac{T}{12}$."
+     ],
+     "loesung": [
+      "$-10\\,cm \\cdot \\sin(\\pi \\cdot t) = 5{,}0\\,cm$",
+      "also $\\sin(\\pi \\cdot t) = -0{,}5$",
+      "Zuerst geht der Körper nach unten. Nach 1,0 s ist er wieder in der Ruhelage und bewegt sich nach oben.",
+      "$\\pi \\cdot t = \\pi + \\dfrac{\\pi}{6}$, also $t = \\dfrac{7}{6}\\,s \\approx 1{,}17\\,s$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "In welche Richtung bewegt sich der Körper zu diesem Zeitpunkt?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "nach oben",
+       "nach unten",
+       "er ist in Ruhe"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wo war er 0,17 s vorher?"
+     ],
+     "loesung": [
+      "Er kommt aus der Ruhelage und ist auf dem Weg zum oberen Umkehrpunkt: nach oben."
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "S2-G1",
+   "thema": "S2",
+   "stufe": "G",
+   "titel": "Größte Werte",
+   "kontext": "Für einen Federschwinger gilt $y(t) = 4{,}0\\,cm \\cdot \\sin(10\\,\\tfrac{1}{s} \\cdot t)$.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die größte Geschwindigkeit.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.4,
+      "einheit": "m/s",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$v_{max} = y_{max} \\cdot \\omega$, Amplitude in Meter."
+     ],
+     "loesung": [
+      "$v_{max} = 0{,}040\\,m \\cdot 10\\,\\tfrac{1}{s} = 0{,}40\\,\\tfrac{m}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die größte Beschleunigung.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 4.0,
+      "einheit": "m/s²",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$a_{max} = y_{max} \\cdot \\omega^2$"
+     ],
+     "loesung": [
+      "$a_{max} = 0{,}040\\,m \\cdot (10\\,\\tfrac{1}{s})^2 = 4{,}0\\,\\tfrac{m}{s^2}$"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "S2-G2",
+   "thema": "S2",
+   "stufe": "G",
+   "titel": "Ableiten und deuten",
+   "kontext": "Ein Federschwinger startet im oberen Umkehrpunkt: $y(t) = y_{max} \\cdot \\cos(\\omega \\cdot t)$.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Welches v-t-Gesetz gilt?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "$v(t) = -y_{max} \\cdot \\omega \\cdot \\sin(\\omega t)$",
+       "$v(t) = y_{max} \\cdot \\omega \\cdot \\sin(\\omega t)$",
+       "$v(t) = y_{max} \\cdot \\omega \\cdot \\cos(\\omega t)$",
+       "$v(t) = -y_{max} \\cdot \\sin(\\omega t)$"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Die Ableitung von cos ist −sin.",
+      "Kettenregel: innere Ableitung ω."
+     ],
+     "loesung": [
+      "$v(t) = y'(t) = -y_{max} \\cdot \\omega \\cdot \\sin(\\omega t)$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Wo ist die Beschleunigung am größten?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "in den Umkehrpunkten",
+       "in der Ruhelage",
+       "überall gleich",
+       "auf halbem Weg"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "$a = -\\omega^2 \\cdot y$"
+     ],
+     "loesung": [
+      "Bei größter Auslenkung ist $|a|$ am größten: in den Umkehrpunkten."
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Der Körper ist gerade über der Ruhelage. Wohin zeigt seine Beschleunigung?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "nach unten, zur Ruhelage",
+       "nach oben",
+       "in Bewegungsrichtung",
+       "sie ist null"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Die Rückstellkraft zeigt zur Ruhelage."
+     ],
+     "loesung": [
+      "a zeigt immer zur Ruhelage, hier also nach unten."
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "S2-A",
+   "thema": "S2",
+   "stufe": "A",
+   "titel": "Nähmaschinennadel",
+   "kontext": "Die Nadel einer Nähmaschine bewegt sich näherungsweise harmonisch mit der Frequenz 10 Hz und der Amplitude 1,5 cm. Zum Zeitpunkt t = 0 geht sie durch die Ruhelage nach unten.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die größte Geschwindigkeit der Nadel.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.94,
+      "einheit": "m/s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Zuerst $\\omega = 2\\pi \\cdot f$.",
+      "$v_{max} = y_{max} \\cdot \\omega$"
+     ],
+     "loesung": [
+      "$\\omega = 2\\pi \\cdot 10\\,Hz \\approx 62{,}8\\,\\tfrac{1}{s}$",
+      "$v_{max} = 0{,}015\\,m \\cdot 62{,}8\\,\\tfrac{1}{s} \\approx 0{,}94\\,\\tfrac{m}{s}$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die größte Beschleunigung der Nadel.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 59.0,
+      "einheit": "m/s²",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$a_{max} = y_{max} \\cdot \\omega^2$"
+     ],
+     "loesung": [
+      "$a_{max} = 0{,}015\\,m \\cdot (62{,}8\\,\\tfrac{1}{s})^2 \\approx 59\\,\\tfrac{m}{s^2}$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Berechne die Geschwindigkeit der Nadel 0,010 s nach dem Start (oben positiv).",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": -0.76,
+      "einheit": "m/s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Startfall Ruhelage nach unten: $y(t) = -y_{max} \\cdot \\sin(\\omega t)$.",
+      "Ableiten: $v(t) = -y_{max} \\cdot \\omega \\cdot \\cos(\\omega t)$. Bogenmaß!"
+     ],
+     "loesung": [
+      "$\\omega \\cdot t = 62{,}8\\,\\tfrac{1}{s} \\cdot 0{,}010\\,s \\approx 0{,}628$",
+      "$v = -0{,}94\\,\\tfrac{m}{s} \\cdot \\cos(0{,}628) \\approx -0{,}76\\,\\tfrac{m}{s}$",
+      "Die Nadel bewegt sich nach unten."
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Wie oft pro Sekunde erreicht die Nadel ihre größte Geschwindigkeit (nach oben oder unten)?",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "20-mal",
+       "10-mal",
+       "5-mal",
+       "40-mal"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wie oft geht die Nadel in einer Periode durch die Ruhelage?"
+     ],
+     "loesung": [
+      "Zweimal pro Periode, bei 10 Hz also 20-mal pro Sekunde."
+     ],
+     "id": "d"
+    }
+   ]
+  },
+  {
+   "id": "S2-Z",
+   "thema": "S2",
+   "stufe": "Z",
+   "titel": "Der hüpfende Ball",
+   "kontext": "Auf einer waagerechten Platte liegt ein leichter Ball. Die Platte schwingt mit 50 Hz auf und ab. Erhöht man die Amplitude langsam, beginnt der Ball ab einer bestimmten Amplitude zu hüpfen.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Begründe, an welcher Stelle der Schwingung der Ball zuerst abhebt und unter welcher Bedingung.",
+     "be": 2,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Im oberen Umkehrpunkt ist die Beschleunigung der Platte am größten und zeigt nach unten.",
+       "Ist sie größer als die Fallbeschleunigung g, kann der Ball der Platte nicht mehr folgen und hebt ab: $a_{max} > g$."
+      ]
+     },
+     "hilfen": [
+      "Wo ist die Beschleunigung am größten und wohin zeigt sie dort?",
+      "Mit welcher Beschleunigung fällt der Ball höchstens nach unten?"
+     ],
+     "loesung": [
+      "oberer Umkehrpunkt: a maximal, nach unten",
+      "Bedingung $a_{max} > g$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Amplitude, ab der der Ball abhebt. Gib sie in mm an.",
+     "be": 2,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.099,
+      "einheit": "mm",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Setze $a_{max} = g$.",
+      "$y_{max} = \\dfrac{g}{\\omega^2}$ mit $\\omega = 2\\pi \\cdot 50\\,Hz$"
+     ],
+     "loesung": [
+      "$\\omega = 2\\pi \\cdot 50\\,Hz \\approx 314\\,\\tfrac{1}{s}$",
+      "$y_{max} = \\dfrac{9{,}81\\,\\tfrac{m}{s^2}}{(314\\,\\tfrac{1}{s})^2} \\approx 9{,}9 \\cdot 10^{-5}\\,m$",
+      "Das sind etwa 0,099 mm."
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "S3-G1",
+   "thema": "S3",
+   "stufe": "G",
+   "titel": "Eigenfrequenz",
+   "kontext": "Ein Körper der Masse 500 g schwingt an einer Feder mit $D = 20\\,\\tfrac{N}{m}$.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Periodendauer.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 0.99,
+      "einheit": "s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$T = 2\\pi \\cdot \\sqrt{\\dfrac{m}{D}}$, Masse in kg."
+     ],
+     "loesung": [
+      "$T = 2\\pi \\cdot \\sqrt{\\dfrac{0{,}50\\,kg}{20\\,\\tfrac{N}{m}}} \\approx 0{,}99\\,s$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Eigenfrequenz.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.0,
+      "einheit": "Hz",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$f_0 = \\dfrac{1}{T}$ mit deinem Ergebnis aus a)."
+     ],
+     "loesung": [
+      "$f_0 = \\dfrac{1}{0{,}99\\,s} \\approx 1{,}0\\,Hz$"
+     ],
+     "id": "b"
+    }
+   ]
+  },
+  {
+   "id": "S3-G2",
+   "thema": "S3",
+   "stufe": "G",
+   "titel": "Erzwungene Schwingung",
+   "kontext": "Ein Federschwinger mit der Eigenfrequenz $f_0$ wird am oberen Federende periodisch angeregt.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Die Erregerfrequenz ist deutlich kleiner als $f_0$. Der Körper schwingt …",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "gleichphasig mit etwa der Amplitude des Erregers",
+       "gegenphasig mit sehr kleiner Amplitude",
+       "mit wachsender Amplitude",
+       "mit seiner Eigenfrequenz"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Bei langsamer Anregung bewegt sich der Körper mit."
+     ],
+     "loesung": [
+      "kleiner als $f_0$: gleichphasig, etwa Erregeramplitude"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Die Erregerfrequenz ist deutlich größer als $f_0$. Der Körper schwingt …",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "gegenphasig mit sehr kleiner Amplitude",
+       "gleichphasig mit etwa der Amplitude des Erregers",
+       "mit wachsender Amplitude",
+       "gar nicht"
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Kann der träge Körper einer schnellen Anregung folgen?"
+     ],
+     "loesung": [
+      "größer als $f_0$: gegenphasig, sehr kleine Amplitude"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Die Erregerfrequenz ist gleich $f_0$. Was geschieht?",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "auswahl",
+      "optionen": [
+       "Resonanz: In jeder Periode wird Energie zugeführt, die Amplitude wächst.",
+       "Die Schwingung kommt zur Ruhe.",
+       "Der Körper schwingt mit doppelter Frequenz.",
+       "Die Amplitude bleibt genau gleich der des Erregers."
+      ],
+      "richtig": [
+       0
+      ],
+      "mehrfach": false
+     },
+     "hilfen": [
+      "Wann wird in jeder Periode Energie zugeführt?"
+     ],
+     "loesung": [
+      "Resonanz: Energiezufuhr in jeder Periode, die Amplitude wächst bis zur Grenze durch die Dämpfung."
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "S3-A",
+   "thema": "S3",
+   "stufe": "A",
+   "titel": "Zitternder Rückspiegel",
+   "kontext": "Der Rückspiegel eines Motorrads verhält sich wie ein Federschwinger mit der Masse 0,20 kg und $D = 320\\,\\tfrac{N}{m}$. Der Motor regt ihn bei jeder Umdrehung einmal an. Die Drehzahl wird in Umdrehungen pro Minute angegeben.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Eigenfrequenz des Spiegels.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 6.4,
+      "einheit": "Hz",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$T = 2\\pi \\cdot \\sqrt{\\dfrac{m}{D}}$, dann $f_0 = \\dfrac{1}{T}$."
+     ],
+     "loesung": [
+      "$T = 2\\pi \\cdot \\sqrt{\\dfrac{0{,}20\\,kg}{320\\,\\tfrac{N}{m}}} \\approx 0{,}157\\,s$, $f_0 \\approx 6{,}4\\,Hz$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Berechne die Drehzahl, bei der der Spiegel besonders stark zittert.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 380.0,
+      "einheit": "1/min",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Resonanz: Erregerfrequenz gleich Eigenfrequenz.",
+      "Die Erregerfrequenz in Hz gibt die Umdrehungen pro Sekunde an. Rechne in Umdrehungen pro Minute um."
+     ],
+     "loesung": [
+      "Resonanz bei 6,4 Umdrehungen pro Sekunde",
+      "$6{,}37\\,Hz \\cdot 60\\,s \\approx 380$ Umdrehungen pro Minute"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Schlage zwei Maßnahmen gegen das Zittern vor und begründe sie.",
+     "be": 2,
+     "afb": "II",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Eigenfrequenz verschieben, z. B. steifere Halterung (größeres D, größeres $f_0$), sodass die Resonanz bei einer Drehzahl liegt, die kaum gefahren wird.",
+       "Dämpfung erhöhen, z. B. Gummilager: Die Amplitude bleibt auch bei Resonanz klein."
+      ]
+     },
+     "hilfen": [
+      "Wovon hängt die Eigenfrequenz ab?",
+      "Was begrenzt die Amplitude bei Resonanz?"
+     ],
+     "loesung": [
+      "Eigenfrequenz verschieben (D oder m ändern)",
+      "Dämpfung erhöhen"
+     ],
+     "id": "c"
+    }
+   ]
+  },
+  {
+   "id": "S3-Z",
+   "thema": "S3",
+   "stufe": "Z",
+   "titel": "Kinderwagen auf Gehwegplatten",
+   "kontext": "Ein Kinderwagen wird über einen Gehweg geschoben. Die Fugen zwischen den Platten liegen 0,50 m auseinander. Bei jeder Fuge wird die Wanne einmal angestoßen. Die Wanne mit Kind (12 kg) schwingt auf Federn mit insgesamt $D = 2400\\,\\tfrac{N}{m}$.",
+   "abbildung": null,
+   "teile": [
+    {
+     "text": "Berechne die Eigenfrequenz der Wanne.",
+     "be": 1,
+     "afb": "I",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 2.3,
+      "einheit": "Hz",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "$T = 2\\pi \\cdot \\sqrt{\\dfrac{m}{D}}$, $f_0 = \\dfrac{1}{T}$"
+     ],
+     "loesung": [
+      "$T = 2\\pi \\cdot \\sqrt{\\dfrac{12\\,kg}{2400\\,\\tfrac{N}{m}}} \\approx 0{,}44\\,s$, $f_0 \\approx 2{,}3\\,Hz$"
+     ],
+     "id": "a"
+    },
+    {
+     "text": "Der Wagen wird mit $1{,}0\\,\\tfrac{m}{s}$ geschoben. Berechne die Frequenz, mit der die Wanne angeregt wird.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 2.0,
+      "einheit": "Hz",
+      "toleranz_rel": 0.02,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Berechne zuerst die Zeit von Fuge zu Fuge mit $v = \\dfrac{s}{t}$.",
+      "Die Erregerfrequenz ist der Kehrwert dieser Zeit."
+     ],
+     "loesung": [
+      "$t = \\dfrac{0{,}50\\,m}{1{,}0\\,\\tfrac{m}{s}} = 0{,}50\\,s$, $f = \\dfrac{1}{0{,}50\\,s} = 2{,}0\\,Hz$"
+     ],
+     "id": "b"
+    },
+    {
+     "text": "Berechne die Geschwindigkeit, bei der die Wanne am stärksten schwingt.",
+     "be": 1,
+     "afb": "II",
+     "pruefung": {
+      "typ": "zahl",
+      "wert": 1.1,
+      "einheit": "m/s",
+      "toleranz_rel": 0.03,
+      "vorzeichen": "streng"
+     },
+     "hilfen": [
+      "Resonanz: Die Zeit von Fuge zu Fuge ist gleich der Periodendauer aus a).",
+      "$v = \\dfrac{s}{T}$"
+     ],
+     "loesung": [
+      "$v = \\dfrac{0{,}50\\,m}{0{,}44\\,s} \\approx 1{,}1\\,\\tfrac{m}{s}$"
+     ],
+     "id": "c"
+    },
+    {
+     "text": "Ein Vater meint: „Mit härteren Federn kommt das starke Schaukeln schon bei langsamerem Schieben.“ Bewerte die Aussage.",
+     "be": 1,
+     "afb": "III",
+     "pruefung": {
+      "typ": "selbst",
+      "kriterien": [
+       "Falsch: Mit größerem D wird T kleiner und $f_0$ größer. Die Resonanz liegt dann bei einer größeren Geschwindigkeit."
+      ]
+     },
+     "hilfen": [
+      "Wie ändert sich T, wenn D größer wird?"
+     ],
+     "loesung": [
+      "falsch: größeres D, kleineres T, Resonanz bei größerer Geschwindigkeit"
+     ],
+     "id": "d"
+    }
+   ]
+  }
+ ],
+ "diagnose": [
+  {
+   "thema": "W1",
+   "frage": "Was transportiert eine mechanische Welle?",
+   "optionen": [
+    "Energie, aber keine Materie",
+    "Materie und Energie",
+    "nur Materie",
+    "weder Energie noch Materie"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W1",
+   "frage": "Mit welcher Frequenz schwingen die Oszillatoren einer Welle?",
+   "optionen": [
+    "mit der Frequenz des Erregers",
+    "jeder mit seiner eigenen Frequenz",
+    "mit abnehmender Frequenz",
+    "mit der doppelten Erregerfrequenz"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W2",
+   "frage": "Schall in Luft ist eine …",
+   "optionen": [
+    "Longitudinalwelle",
+    "Transversalwelle",
+    "Welle ohne Trägermedium",
+    "Welle, die sich polarisieren lässt"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W2",
+   "frage": "In welchem Medium ist Schall am schnellsten?",
+   "optionen": [
+    "Stahl",
+    "Wasser",
+    "Luft",
+    "Vakuum"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W3",
+   "frage": "Ein Seilstück ist gerade im Wellenberg. Seine Geschwindigkeit ist …",
+   "optionen": [
+    "null",
+    "am größten",
+    "gleich c",
+    "doppelt so groß wie c"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W3",
+   "frage": "Die Ausbreitungsgeschwindigkeit c einer Welle …",
+   "optionen": [
+    "ist konstant und hängt vom Medium ab",
+    "ändert sich ständig",
+    "ist in der Ruhelage am größten",
+    "hängt von der Amplitude ab"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W4",
+   "frage": "Aus welchem Diagramm liest man die Wellenlänge ab?",
+   "optionen": [
+    "aus dem y(x)-Diagramm",
+    "aus dem y(t)-Diagramm",
+    "aus beiden",
+    "aus keinem"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W4",
+   "frage": "λ = 2,0 m und f = 3,0 Hz. Die Ausbreitungsgeschwindigkeit ist …",
+   "optionen": [
+    "$6{,}0\\,\\tfrac{m}{s}$",
+    "$0{,}67\\,\\tfrac{m}{s}$",
+    "$1{,}5\\,\\tfrac{m}{s}$",
+    "$5{,}0\\,\\tfrac{m}{s}$"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W5",
+   "frage": "λ = 1,0 m, $\\Delta s$ = 2,5 m. Die beiden Punkte schwingen …",
+   "optionen": [
+    "gegenphasig",
+    "gleichphasig",
+    "um eine Viertelperiode versetzt",
+    "gar nicht"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "W5",
+   "frage": "Zwei Punkte schwingen gleichphasig. Ihr Abstand ist …",
+   "optionen": [
+    "ein ganzes Vielfaches von λ",
+    "ein ungerades Vielfaches von $\\dfrac{\\lambda}{2}$",
+    "immer genau λ",
+    "immer kleiner als λ"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "S1",
+   "frage": "Ein Schwinger startet im unteren Umkehrpunkt. Das Gesetz enthält …",
+   "optionen": [
+    "−cos",
+    "cos",
+    "sin",
+    "−sin"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "S1",
+   "frage": "T = 0,50 s. Die Kreisfrequenz ist …",
+   "optionen": [
+    "$12{,}6\\,\\tfrac{1}{s}$",
+    "$3{,}14\\,\\tfrac{1}{s}$",
+    "$2{,}0\\,\\tfrac{1}{s}$",
+    "$0{,}50\\,\\tfrac{1}{s}$"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "S2",
+   "frage": "Wo ist die Geschwindigkeit eines Federschwingers null?",
+   "optionen": [
+    "in den Umkehrpunkten",
+    "in der Ruhelage",
+    "nirgends",
+    "überall"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "S2",
+   "frage": "Die größte Beschleunigung ist …",
+   "optionen": [
+    "$y_{max} \\cdot \\omega^2$",
+    "$y_{max} \\cdot \\omega$",
+    "$\\omega^2$",
+    "$\\dfrac{y_{max}}{\\omega}$"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "S3",
+   "frage": "Bei Resonanz ist …",
+   "optionen": [
+    "die Erregerfrequenz gleich der Eigenfrequenz",
+    "die Amplitude null",
+    "die Erregerfrequenz doppelt so groß wie die Eigenfrequenz",
+    "die Dämpfung besonders groß"
+   ],
+   "richtig": 0
+  },
+  {
+   "thema": "S3",
+   "frage": "Die Masse an einer Feder wird vervierfacht. Die Periodendauer …",
+   "optionen": [
+    "verdoppelt sich",
+    "vervierfacht sich",
+    "halbiert sich",
+    "bleibt gleich"
+   ],
+   "richtig": 0
+  }
+ ]
+}
